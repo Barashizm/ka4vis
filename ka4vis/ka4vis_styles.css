@@ -1,0 +1,35 @@
+html {
+	height: 100%;
+	background: linear-gradient(180deg, #6EA9BA, #3D4547);
+}
+body {
+	margin-top: 0;
+}
+#container {
+	width: 1000px;
+	margin: auto;
+	background-color: #80008010;
+
+}
+
+/* Стили хедер, меню*/
+header h1 {
+	border-top: none;
+	border-radius: 0 0 100px 100px;
+	width: 900px;
+	margin: auto;
+	background: linear-gradient(200deg, #054456, #B5E6F4); 
+	text-align: center;
+	height: 60px;
+	font-size: 3em;
+	font-style: italic;
+}
+#submenu {
+	transform: scaleY(0);
+    transform-origin: 0 0;
+	transition: 0.3s ease-in-out;
+}
+#menu li:hover #submenu {
+	transform: scaleY(1);
+}
+
