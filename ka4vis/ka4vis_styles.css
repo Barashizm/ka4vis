@@ -1,35 +1,72 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+   }
 html {
-	height: 100%;
-	background: linear-gradient(180deg, #6EA9BA, #3D4547);
+	background: radial-gradient(#317b98, #081928);
 }
 body {
-	margin-top: 0;
-}
-#container {
 	width: 1000px;
 	margin: auto;
-	background-color: #80008010;
-
+	color: white;
+	font-family: tahoma, serif;
 }
-
-/* Стили хедер, меню*/
-header h1 {
-	border-top: none;
-	border-radius: 0 0 100px 100px;
-	width: 900px;
+#container {
+	width: 80%;
 	margin: auto;
-	background: linear-gradient(200deg, #054456, #B5E6F4); 
-	text-align: center;
-	height: 60px;
+}
+/*стили хедер*/
+header img, header h1 {
+	display: inline-block;
+	margin-top: 5%;
+}
+header img {
+	margin-left: 25%;
+}
+header h1 {
 	font-size: 3em;
-	font-style: italic;
+	margin-left: 2% 
 }
-#submenu {
-	transform: scaleY(0);
-    transform-origin: 0 0;
-	transition: 0.3s ease-in-out;
+nav {
+	margin-top: 5%;
 }
-#menu li:hover #submenu {
-	transform: scaleY(1);
+nav li {
+	display: inline-block;
+	text-align: center;
+	text-decoration: underline;
+}
+#git {
+	margin-right: 25%; 
+	margin-left: 25%;
+}
+nav h2 {
+	margin-left: 10%; 
+}
+nav a:visited, nav a:link {
+	text-decoration: none;
+	color: white;
 }
 
+
+
+/*Стили мэйн*/
+main {
+	background-color: white;
+	color: #0e4d66;
+	padding: 6%;
+	margin-top: 3%;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 2px #081928;
+}
+p {
+	padding: 5px 0;
+}
+.bold {
+	font-weight: bold;
+}
+#point div, #contacts div {
+	display: inline-block;
+}
+main h2, h3 {
+	margin: 1.5% 0;
+}
