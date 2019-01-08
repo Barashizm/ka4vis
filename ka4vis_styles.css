@@ -35,9 +35,12 @@ nav li {
 	text-align: center;
 	text-decoration: underline;
 }
+nav li:hover, #rezume {
+	text-decoration: none;
+}
 #git {
-	margin-right: 25%; 
-	margin-left: 25%;
+	margin-right: 28%; 
+	margin-left: 28%;
 }
 nav h2 {
 	margin-left: 10%; 
@@ -64,9 +67,20 @@ p {
 .bold {
 	font-weight: bold;
 }
-#point div, #contacts div {
+#point img, #point div, #contacts div {
 	display: inline-block;
+}
+#point img {
+	width: 20%;
+	margin-right: 10%;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 2px #081928;
 }
 main h2, h3 {
 	margin: 1.5% 0;
+}
+
+footer p {
+	text-align: center;
+	font-size: 1em;
 }
